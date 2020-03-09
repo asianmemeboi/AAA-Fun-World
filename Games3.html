@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+    <title> Games </title>
+    <style>
+        .hotdesign {
+      color: lime;
+      background-color: magenta;
+      font-family: verdana;
+      border: 5px solid red;
+      border-radius: 12px;
+      text-align: center;
+    }
+      
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: right;
+      }
+        
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+      li a:hover:not(.active) {
+        background-color: #111;
+    }
+        
+      .active {
+      background-color: #4CAF50;
+      }
+      
+      .button {
+        background-color: #0004ff;
+        border: 5px solid #f44336;
+        border-radius: 10px;
+        display: inline-block;
+        color: red;
+        padding: 14px 40px;
+        text-decoration: none;
+        outline: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        box-shadow: 0 9px #999;
+       }
+
+    .button:hover {
+      background-color: white;
+      color: blue;
+    }
+    
+    .button:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    
+      .gamelink {
+        background-color: #0004ff;
+        border: 5px solid #f44336;
+        border-radius: 10px;
+        display: inline-block;
+        color: red;
+        padding: 8px 25px;
+        text-decoration: none;
+        outline: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        box-shadow: 0 9px #999;
+       }
+
+    .gamelink:hover {
+      background-color: white;
+      color: blue;
+    }
+    
+    .gamelink:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    
+    body {
+      background-image: url('https://wallpaperaccess.com/full/771645.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+        </style>
+    </style>
+  </head>
+  <body>
+    <h1 class="hotdesign"> Games </h1>
+    
+        <script>
+        function chooseRandomly() {
+          choices = document.getElementById("choicelist").value.split("\n");
+          if (choices.length == 0) return;
+          document.getElementById("result").value = choices[Math.floor(Math.random() * choices.length)];
+        }
+        </script>
+
+        <p style="text-align: center;"><b style="align: center;"> Highlight all games, copy and paste them into this box, and then press choose. </b></p>
+        <p style="text-align: center;"><form action="" onsubmit="return false;">
+        <textarea id="choicelist" rows=10 cols=80 style="align: center;">
+        </textarea><br><br>
+        <p style="text-align: center;"><input class="button" type="button" value="Choose" onclick="chooseRandomly();                 return false;"><br><br></p>
+        <p style="text-align: center;"><input style="align: center;" id="result" type="text" size="80" value="" readonly="readonly"><br><br></p>
+
+
+
+        </form></p>
+        <p> &nbsp; </p>
+        <p> &nbsp; </p>
+        <p style="text-align: center;"> <a href="1 on 1 soccer.html" class="gamelink"> 1 on 1 Soccer </a> </p>
+        <p style="text-align: center;"> <a href="1 on 1 soccer.html" class="gamelink"> 1 on 1 Soccer </a> </p>
+        
+  </body>
+</html>    
