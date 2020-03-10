@@ -1,0 +1,73 @@
+   .hotdesign {
+color: lime;
+background-color: magenta;
+font-family: verdana;
+border: 5px solid red;
+border-radius: 12px;
+text-align: center;
+margin: 8px 200px;
+padding: 5px 6px;
+}
+
+   body {
+background-image: url('https://wallpaperaccess.com/full/771645.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: magenta;
+    }
+
+    li {
+      float: right;
+      }
+        
+    li a {
+      display: block;
+      color: red;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+      li a:hover:not(.active) {
+        background-color: #111;
+    }
+        
+      .active {
+      background-color: lime;
+      }
+      
+      .button {
+        background-color: #0004ff;
+        border: 5px solid #f44336;
+        border-radius: 10px;
+        display: inline-block;
+        color: red;
+        padding: 14px 40px;
+        text-decoration: none;
+        outline: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        box-shadow: 0 9px #999;
+       }
+
+    .button:hover {
+      background-color: white;
+      color: blue;
+    }
+    
+    .button:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
