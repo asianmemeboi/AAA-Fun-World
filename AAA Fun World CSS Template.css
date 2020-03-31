@@ -30,10 +30,12 @@ background-attachment: fixed;
         
     li a {
       display: block;
-      color: red;
+      color: lime;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
+      font: verdana;
+      font-weight: bold;
     }
 
       li a:hover:not(.active) {
@@ -41,7 +43,7 @@ background-attachment: fixed;
     }
         
       .active {
-      background-color: lime;
+      background-color: red;
       }
       
       .button {
