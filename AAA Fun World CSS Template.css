@@ -1,75 +1,149 @@
-   .hotdesign {
-color: lime;
-background-color: magenta;
-font-family: verdana;
-border: 5px solid red;
-border-radius: 12px;
-text-align: center;
-margin: 8px 200px;
-padding: 5px 6px;
-}
+.hotdesign {
+	color: lime;
+	background-color: magenta;
+	font-family: verdana;
+	border: 5px solid red;
+	border-radius: 12px;
+	text-align: center;
+	margin: 8px 200px;
+	padding: 5px 6px;
+	}
 
-   body {
-background-image: url('https://wallpaperaccess.com/full/771645.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-}
 
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: magenta;
-    }
+body {
+	background-image: url('https://wallpaperaccess.com/full/771645.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	}
 
-    li {
-      float: right;
-      }
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: magenta;
+	}
+
+li {
+	float: right;
+	font: verdana;
+	font-weight: bold;
+	}
         
-    li a {
-      display: block;
-      color: lime;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font: verdana;
-      font-weight: bold;
+li a {
+	display: block;
+	color: lime;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font: verdana;
+	font-weight: bold;
     }
 
-      li a:hover:not(.active) {
-        background-color: #111;
-    }
+li a:hover:not(.active) {
+	background-color: #111;
+	}
         
-      .active {
-      background-color: red;
-      }
+.active {
+	background-color: red;
+	}
       
-      .button {
-        background-color: #0004ff;
-        border: 5px solid #f44336;
-        border-radius: 10px;
-        display: inline-block;
-        color: red;
-        padding: 14px 40px;
-        text-decoration: none;
-        outline: none;
-        display: inline-block;
-        font-size: 20px;
-        margin: 4px 2px;
-        transition-duration: 0.4s;
-        cursor: pointer;
-        box-shadow: 0 9px #999;
-       }
+.button {
+	background-color: #0004ff;
+	border: 5px solid #f44336;
+	border-radius: 10px;
+	display: inline-block;
+	color: red;
+	padding: 14px 40px;
+	text-decoration: none;
+	outline: none;
+	display: inline-block;
+	font: verdana;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	box-shadow: 0 9px #999;
+	}
 
-    .button:hover {
-      background-color: white;
-      color: blue;
-    }
+.button:hover {
+	background-color: white;
+	color: blue;
+	}
     
-    .button:active {
-      background-color: #3e8e41;
-      box-shadow: 0 5px #666;
-      transform: translateY(4px);
-    }
+.button:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+	}
+	
+.loginbox{
+	width: 320px;
+	height: 420px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	}
+
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	}
+
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+	}
+
+.loginbox input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	}
+.loginbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	}
+.loginbox input[type="submit"]:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+	}
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+	}
+
+.loginbox a:hover{
+	color: #ffc107;
+	}
+
+.loginbox h1{
+	font-family: verdana;
+	background: none;
+	color: lime;
+	margin: 0;
+	border: none;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+	}
