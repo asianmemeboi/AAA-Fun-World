@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+		<title> Games </title>
+		<link rel='stylesheet' href='AAA Fun World CSS Template.css'/ >
+		<script language="JavaScript">
+
+
+			var password;
+			var username;
+
+			var user1 = "Kingasian"
+
+			var pass1 = "hotdoggo";
+			var pass2 = "(new password)";
+			var pass3 = "(new password)";
+
+			username = prompt('Please enter your username',' ');
+
+
+			if (username == user1)
+				password = prompt('Please enter your password',' ');
+			else
+				{
+				window.location = "https://classroom.google.com/u/0/h";
+				}
+			if (password == pass1 || password == pass2 || password == pass3)
+			  alert('Password is Correct, Click OK to Login.');
+			else
+			   {
+			    window.location="https://classroom.google.com/u/0/h";
+			    }
+
+
+		</script>
+	</head>
+	<body>
+		<ul>
+			<li style="float:left"><a href="index.html">AAA Fun World</a></li>
+			<li><a href="LoginSignup.html">Login/Signup</a></li>
+			<li><a href="About.html">About</a></li>
+			<li><a href="Forums.html">Forums</a></li>
+			<li><a href="Games6.html" class="active">Games</a></li>   
+		</ul>
+		<h1 class="hotdesign"> Games </h1>
+    
+		<script>
+			function chooseRandomly() {
+			choices = document.getElementById("choicelist").value.split("n");
+			if (choices.length == 0) return;
+			document.getElementById("result").value = choices[Math.floor(Math.random() * choices.length)];
+			}
+		</script>
+
+		<p style="text-align: center;"><b style="align: center;"> Highlight all games, copy and paste them into this box, and then press choose. </b></p>
+		<p style="text-align: center;"><form action="" onsubmit="return false;">
+		<p style="text-align: center;"><textarea id="choicelist" rows=10 cols=80 style="align: center;">
+		</textarea></p> <br><br>
+		<p style="text-align: center;"><input class="button" type="button" value="Choose" onclick="chooseRandomly();                 return false;"><br><br></p>
+		<p style="text-align: center;"><input style="align: center;" id="result" type="text" size="80" value="" readonly="readonly"><br><br></p>
+
+
+
+		</form></p>
+		<p> &nbsp; </p>
+		<p> &nbsp; </p>
+		<p style="text-align: center;"> <a href="/Game_pages/1 on 1 soccer.html" class="button"> 1 on 1 Soccer </a> </p>
+		<p style="text-align: center;"> <a href="/Game_pages/10 bullets.html" class="button"> 10 Bullets </a> </p>
+		<p style="text-align: center;"> <a href="/Game_pages/3pandas.html" class="button"> 3 Pandas </a> </p>        
+	</body>
+</html>    
+
