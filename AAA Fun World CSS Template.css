@@ -35,9 +35,10 @@ li a {
 	display: block;
 	color: lime;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 25px 14px 16px;
 	text-decoration: none;
-	font: verdana;
+	font-size: 30px;
+	font-family: verdana;
 	font-weight: bold;
     }
 
@@ -48,7 +49,7 @@ li a:hover:not(.active) {
 .active {
 	background-color: red;
 	}
-      
+	  
 .button {
 	background-color: #0004ff;
 	border: 5px solid #f44336;
